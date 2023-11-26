@@ -1,8 +1,4 @@
-# this works for the script but not with pytest
-from lib import imported_function
-
-
-# this works fot pytest, but not with the script
+# run from root with `python -m src.mypkg.main`
 from .lib import imported_function
 
 
